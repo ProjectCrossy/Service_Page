@@ -1,4 +1,4 @@
-import { alpha, makeStyles } from '@material-ui/core/styles';
+import { alpha, makeStyles, rgbToHex } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
   title: {
@@ -29,5 +29,10 @@ export default makeStyles((theme) => ({
   toolbar: {
     display: 'flex', justifyContent: 'space-between',
   },
+  crossy: {
+    textDecoration: 'none',
+    color: '#FFFFFF',
+    
+  }
 }));
 
